@@ -1,0 +1,11 @@
+https://github.com/cornflourblue/react-signup-verification-boilerplate.git
+https://github.com/cornflourblue/node-mongo-signup-verification-api.git
+
+Install MongoDB Community Server from  https://www.mongodb.com/download-center/community.
+Run MongoDB, instructions are available on the install page for each OS at https://docs.mongodb.com/manual/administration/install-community/
+Download or clone the project source code from https://github.com/cornflourblue/node-mongo-signup-verification-api
+Install all required npm packages by running npm install or npm i from the command line in the project root folder (where the package.json is located).
+Configure SMTP settings for email within the smtpOptions property in the /src/config.json file. For testing you can create a free account in one click at https://ethereal.email/ and copy the options below the title Nodemailer configuration.
+Start the api by running npm start from the command line in the project root folder, you should see the message Server listening on port 4000.
+Back in the React app, remove or comment out the 2 lines below the comment // setup fake backend located in the /src/index.jsx file, then start the React app and it should now be hooked up with the Node + Mongo API.
+
